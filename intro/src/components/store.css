@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  padding: 15px 30px;
+  font-family: sans-serif;
+}
+
+.material-icons {
+  font-size: 50px;
+  color: #4e4e4e;
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.cards-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-card {
+  display: block;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  box-shadow: 5px 5px 5px #666666;
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.item-color {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.card-image {
+  width: 200px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+}
+
+.price {
+  color: #DA1B2B;
+  font-weight: 700;
+}
+
+.card-button {
+  text-transform: uppercase;
+  color: #DA1B2B;
+  font-weight: 700;
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #F5F5F5;
+  border: solid 2px #DA1B2B;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  background-color: #DA1B2B;
+  color: #F5F5F5;
+}
+
+.shop-item {
+  width: 80%;
+  padding: 10px 30px;
+  display: flex;
+  background-color: #F5F5F5;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.item-image {
+  width: 100px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+}
